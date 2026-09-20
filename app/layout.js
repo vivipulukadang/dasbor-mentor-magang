@@ -1,9 +1,12 @@
 import './globals.css';
+import './komponen.css';
+
 
 export const metadata = {
   title: 'Dasbor Mentor Pemagangan',
   description: 'Kontrol mentor Administrasi & Yuridis Pertanahan - ATR/BPN Bone Bolango',
 };
+
 
 export default function RootLayout({ children }) {
   return (
@@ -19,3 +22,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
